@@ -33,7 +33,7 @@ const Navbar = () => {
 
         <button
           onClick={() => {
-            navigetTo("/signup");
+            navigetTo("/");
           }}
           className="get-start-btn"
         >

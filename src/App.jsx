@@ -17,6 +17,10 @@ import { Jobs } from "./componets/pages/Jobs";
 import { Projects } from "./componets/pages/Projects";
 import { RootLayout } from "./componets/sections/Layouts/RootLayout";
 import { Signup } from "./componets/pages/Signup";
+import { ContactLayout } from "./componets/sections/Layouts/ContactLayout";
+import { Contactfome } from "./componets/component/Contactfome";
+import { Contactinfo } from "./componets/component/Contactinfo";
+import { PageNotFound } from "./componets/pages/PageNotFound";
 
 function App() {
   const router = createBrowserRouter(
@@ -24,11 +28,16 @@ function App() {
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
         <Route path="tutorials" element={<Tutorials />} />
         <Route path="jobs" element={<Jobs />} />
         <Route path="signup" element={<Signup />} />
         <Route path="projects" element={<Projects />} />
+        <Route path="contact" element={<ContactLayout />}>
+          <Route path="info" element={<Contactinfo />} />
+          <Route path="form" element={<Contactfome />} />
+        </Route>
+
+        <Route path="*" element={<PageNotFound />} />
       </Route>
     )
   );
