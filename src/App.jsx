@@ -46,7 +46,7 @@ function App() {
       <RouterProvider router={router} />
       <main className="">
         {/* <Navbar /> */}
-        <div class="container w-[100%] h-[80vh] mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center">
+        <div className="container w-[100%] h-[80vh] mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center">
           {/* Normal Route examples */}
 
           {/* <Routes>
