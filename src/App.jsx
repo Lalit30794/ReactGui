@@ -13,7 +13,7 @@ import { Home } from "./componets/pages/Home";
 import { Tutorials } from "./componets/pages/Tutorials";
 import { Contact } from "./componets/pages/Contact";
 import { About } from "./componets/pages/About";
-import { Jobs } from "./componets/pages/Jobs";
+import { Jobs, Jobsloader } from "./componets/pages/Jobs";
 import { Projects } from "./componets/pages/Projects";
 import { RootLayout } from "./componets/sections/Layouts/RootLayout";
 import { Signup } from "./componets/pages/Signup";
@@ -21,6 +21,8 @@ import { ContactLayout } from "./componets/sections/Layouts/ContactLayout";
 import { Contactfome } from "./componets/component/Contactfome";
 import { Contactinfo } from "./componets/component/Contactinfo";
 import { PageNotFound } from "./componets/pages/PageNotFound";
+import { JobsLayout } from "./componets/sections/Layouts/JobsLayout";
+import { JaobsDetails, JobsDetaisloader } from "./componets/pages/JaobsDetails";
 
 function App() {
   const router = createBrowserRouter(
@@ -35,6 +37,14 @@ function App() {
         <Route path="contact" element={<ContactLayout />}>
           <Route path="info" element={<Contactinfo />} />
           <Route path="form" element={<Contactfome />} />
+        </Route>
+        <Route path="Jobs" element={<JobsLayout />}>
+          <Route index element={<Jobs />} loader={Jobsloader} />
+          <Route
+            path=":id"
+            element={<JaobsDetails />}
+            loader={JobsDetaisloader}
+          />
         </Route>
 
         <Route path="*" element={<PageNotFound />} />

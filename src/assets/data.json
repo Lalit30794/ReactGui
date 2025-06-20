@@ -1,0 +1,457 @@
+{
+  "topics": {
+    "router": [
+      {
+        "id": 1,
+        "title": "React Router v7",
+        "description": "Latest routing library for React supporting data APIs and loaders.",
+        "link": "/tutorials/react-router-v7"
+      },
+      {
+        "id": 2,
+        "title": "React Router v6",
+        "description": "Version 6 with nested routes and element-based routing.",
+        "link": "/tutorials/react-router-v6"
+      },
+      {
+        "id": 3,
+        "title": "React Router v5",
+        "description": "Traditional component-based routing with match and history objects.",
+        "link": "/tutorials/react-router-v5"
+      }
+    ],
+    "hooks": [
+      {
+        "id": 1,
+        "title": "useState",
+        "description": "Manages local component state.",
+        "link": "/tutorials/use-state"
+      },
+      {
+        "id": 2,
+        "title": "useEffect",
+        "description": "Performs side effects like API calls or subscriptions.",
+        "link": "/tutorials/use-effect"
+      },
+      {
+        "id": 3,
+        "title": "useContext",
+        "description": "Accesses context without prop drilling.",
+        "link": "/tutorials/use-context"
+      },
+      {
+        "id": 4,
+        "title": "useReducer",
+        "description": "Alternative to useState for complex state logic.",
+        "link": "/tutorials/use-reducer"
+      },
+      {
+        "id": 5,
+        "title": "useRef",
+        "description": "Accesses DOM elements or persists mutable values.",
+        "link": "/tutorials/use-ref"
+      },
+      {
+        "id": 6,
+        "title": "useMemo",
+        "description": "Memoizes expensive computations.",
+        "link": "/tutorials/use-memo"
+      },
+      {
+        "id": 7,
+        "title": "useCallback",
+        "description": "Memoizes callback functions to prevent re-renders.",
+        "link": "/tutorials/use-callback"
+      },
+      {
+        "id": 8,
+        "title": "Custom Hooks",
+        "description": "Reusable hook logic across components.",
+        "link": "/tutorials/custom-hooks"
+      }
+    ],
+    "state_management": [
+      {
+        "id": 1,
+        "title": "Context API",
+        "description": "Built-in state management for small apps.",
+        "link": "/tutorials/context-api"
+      },
+      {
+        "id": 2,
+        "title": "Redux Toolkit",
+        "description": "Modern Redux approach with less boilerplate.",
+        "link": "/tutorials/redux-toolkit"
+      },
+      {
+        "id": 3,
+        "title": "Zustand",
+        "description": "Minimal and scalable state management.",
+        "link": "/tutorials/zustand"
+      },
+      {
+        "id": 4,
+        "title": "Recoil",
+        "description": "State management with fine-grained atoms/selectors.",
+        "link": "/tutorials/recoil"
+      }
+    ],
+    "performance": [
+      {
+        "id": 1,
+        "title": "Code Splitting",
+        "description": "Lazy load components for better performance.",
+        "link": "/tutorials/code-splitting"
+      },
+      {
+        "id": 2,
+        "title": "Memoization",
+        "description": "Improve performance with React.memo and useMemo.",
+        "link": "/tutorials/memoization"
+      },
+      {
+        "id": 3,
+        "title": "Virtualization",
+        "description": "Render long lists efficiently using react-window or react-virtualized.",
+        "link": "/tutorials/virtualization"
+      }
+    ],
+    "testing": [
+      {
+        "id": 1,
+        "title": "React Testing Library",
+        "description": "Testing React components with DOM queries.",
+        "link": "/tutorials/react-testing-library"
+      },
+      {
+        "id": 2,
+        "title": "Jest",
+        "description": "Unit testing framework for React apps.",
+        "link": "/tutorials/jest-testing"
+      },
+      {
+        "id": 3,
+        "title": "End-to-End Testing",
+        "description": "Testing flows using Cypress or Playwright.",
+        "link": "/tutorials/e2e-testing"
+      }
+    ],
+    "architecture": [
+      {
+        "id": 1,
+        "title": "Component Design Patterns",
+        "description": "Smart/dumb components, container/presenter pattern.",
+        "link": "/tutorials/component-design-patterns"
+      },
+      {
+        "id": 2,
+        "title": "Atomic Design",
+        "description": "UI design system approach for scalable components.",
+        "link": "/tutorials/atomic-design"
+      },
+      {
+        "id": 3,
+        "title": "Folder Structure",
+        "description": "Scalable React folder structures and conventions.",
+        "link": "/tutorials/react-folder-structure"
+      }
+    ],
+    "forms": [
+      {
+        "id": 1,
+        "title": "React Forms (Controlled Components)",
+        "description": "Managing form state with controlled inputs.",
+        "link": "/tutorials/react-forms"
+      },
+      {
+        "id": 2,
+        "title": "Formik",
+        "description": "Popular form library with validation support.",
+        "link": "/tutorials/formik"
+      },
+      {
+        "id": 3,
+        "title": "React Hook Form",
+        "description": "Lightweight form library with great performance.",
+        "link": "/tutorials/react-hook-form"
+      }
+    ],
+    "advanced": [
+      {
+        "id": 1,
+        "title": "Server Components",
+        "description": "New feature in React for server-rendered components.",
+        "link": "/tutorials/server-components"
+      },
+      {
+        "id": 2,
+        "title": "Concurrent Features",
+        "description": "Concurrent rendering with Suspense and transitions.",
+        "link": "/tutorials/concurrent-features"
+      },
+      {
+        "id": 3,
+        "title": "Suspense",
+        "description": "UI fallback while waiting for async data.",
+        "link": "/tutorials/suspense"
+      },
+      {
+        "id": 4,
+        "title": "Error Boundaries",
+        "description": "Catch runtime errors in component tree.",
+        "link": "/tutorials/error-boundaries"
+      }
+    ]
+  },
+  "jobs": {
+    "openings": [
+      {
+        "id": 1,
+        "title": "React Developer",
+        "description": "We are looking for a React developer to join our team.",
+        "link": "/jobs/react-developer"
+      },
+      {
+        "id": 2,
+        "title": "Vue Developer",
+        "description": "We are looking for a Vue developer to join our team.",
+        "link": "/jobs/vue-developer"
+      },
+      {
+        "id": 3,
+        "title": "Angular Developer",
+        "description": "We are looking for an Angular developer to join our team.",
+        "link": "/jobs/angular-developer"
+      },
+      {
+        "id": 4,
+        "title": "Node.js Developer",
+        "description": "We are looking for a Node.js developer to join our team.",
+        "link": "/jobs/nodejs-developer"
+      },
+      {
+        "id": 5,
+        "title": "PHP Developer",
+        "description": "We are looking for a PHP developer to join our team.",
+        "link": "/jobs/php-developer"
+      }
+    ],
+    "internships": [
+      {
+        "id": 1,
+        "title": "React Internship",
+        "description": "Internship program for React enthusiasts.",
+        "link": "/jobs/react-internship"
+      },
+      {
+        "id": 2,
+        "title": "Vue Internship",
+        "description": "Internship program for Vue enthusiasts.",
+        "link": "/jobs/vue-internship"
+      },
+      {
+        "id": 3,
+        "title": "Angular Internship",
+        "description": "Internship program for Angular enthusiasts.",
+        "link": "/jobs/angular-internship"
+      }
+    ],
+    "freelancing": [
+      {
+        "id": 1,
+        "title": "React Freelancer",
+        "description": "Looking for a freelance React developer.",
+        "link": "/jobs/react-freelancer"
+      },
+      {
+        "id": 2,
+        "title": "Vue Freelancer",
+        "description": "Looking for a freelance Vue developer.",
+        "link": "/jobs/vue-freelancer"
+      },
+      {
+        "id": 3,
+        "title": "Angular Freelancer",
+        "description": "Looking for a freelance Angular developer.",
+        "link": "/jobs/angular-freelancer"
+      }
+    ],
+    "remote": [
+      {
+        "id": 1,
+        "title": "Remote React Developer",
+        "description": "Looking for a remote React developer.",
+        "link": "/jobs/remote-react-developer"
+      },
+      {
+        "id": 2,
+        "title": "Remote Vue Developer",
+        "description": "Looking for a remote Vue developer.",
+        "link": "/jobs/remote-vue-developer"
+      },
+      {
+        "id": 3,
+        "title": "Remote Angular Developer",
+        "description": "Looking for a remote Angular developer.",
+        "link": "/jobs/remote-angular-developer"
+      }
+    ]
+  },
+  "community": {
+    "forums": [
+      {
+        "id": 1,
+        "title": "React Forum",
+        "description": "Discussions and resources for React enthusiasts.",
+        "link": "/community/react-forum"
+      },
+      {
+        "id": 2,
+        "title": "Vue Forum",
+        "description": "Discussions and resources for Vue enthusiasts.",
+        "link": "/community/vue-forum"
+      },
+      {
+        "id": 3,
+        "title": "Angular Forum",
+        "description": "Discussions and resources for Angular enthusiasts.",
+        "link": "/community/angular-forum"
+      }
+    ]
+},
+  "resources": {
+    "books": [
+      {
+        "id": 1,
+        "title": "React Book",
+        "description": "Learn React from scratch.",
+        "link": "/resources/react-book"
+      },
+      {
+        "id": 2,
+        "title": "Vue Book",
+        "description": "Learn Vue from scratch.",
+        "link": "/resources/vue-book"
+      },
+      {
+        "id": 3,
+        "title": "Angular Book",
+        "description": "Learn Angular from scratch.",
+        "link": "/resources/angular-book"
+      }
+    ]
+  },
+  "tutorials": [
+    {
+      "id": 1,
+      "title": "React Basics",
+      "description": "Getting started with React.",
+      "link": "/tutorials/react-basics"
+    },
+    {
+      "id": 2,
+      "title": "Vue Basics",
+      "description": "Getting started with Vue.",
+      "link": "/tutorials/vue-basics"
+    },
+    {
+      "id": 3,
+      "title": "Angular Basics",
+      "description": "Getting started with Angular.",
+      "link": "/tutorials/angular-basics"
+    },
+    {
+      "id": 4,
+      "title": "React Hooks",
+      "description": "Advanced React features.",
+      "link": "/tutorials/react-hooks"
+    },
+    {
+      "id": 5,
+      "title": "Vue Components",
+      "description": "Advanced Vue features.",
+      "link": "/tutorials/vue-components"
+    },
+    {
+      "id": 6,
+      "title": "Angular Services",
+      "description": "Advanced Angular features.",
+      "link": "/tutorials/angular-services"
+    },
+    {
+      "id": 7,
+      "title": "React Forms",
+      "description": "Managing form state with controlled inputs.",
+      "link": "/tutorials/react-forms"
+    },
+    {
+      "id": 8,
+      "title": "Formik",
+      "description": "Popular form library with validation support.",
+      "link": "/tutorials/formik"
+    },
+    {
+      "id": 9,
+      "title": "React Hook Form",
+      "description": "Lightweight form library with great performance.",
+      "link": "/tutorials/react-hook-form"
+    },
+    {
+      "id": 10,
+      "title": "React Router v7",
+      "description": "Latest routing library for React supporting data APIs and loaders.",
+      "link": "/tutorials/react-router-v7"
+    },
+    {
+      "id": 11,
+      "title": "React Router v6",
+      "description": "Version 6 with nested routes and element-based routing.",
+      "link": "/tutorials/react-router-v6"
+    },
+    {
+      "id": 12,
+      "title": "React Router v5",
+      "description": "Traditional component-based routing with match and history objects.",
+      "link": "/tutorials/react-router-v5"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password1",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "password2",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "password": "password3",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "password": "password4",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "password": "password5",
+      "role": "user"
+    },
+    {
+      "id": 6,
+      "username": "user6",
+      "password": "password6",
+      "role": "user"
+    }
+   
+  ]
+}
