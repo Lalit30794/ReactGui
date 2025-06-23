@@ -14,36 +14,39 @@ export const Jobs = () => {
         </h6>
         <div className="grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
           {data.openings.map((job) => (
-            <Link
+            <div
               key={job.id}
-              to={`/jobs/${job.id}`}
               className="block bg-white rounded-lg overflow-hidden shadow hover:shadow-xl transform hover:-translate-y-1 hover:scale-[1.02] transition duration-300 ease-in-out"
             >
-              <img
-                src={
-                  job.image ||
-                  "https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=800&q=80"
-                }
-                alt={job.title}
-                className="h-40 w-full object-cover"
-              />
+              <Link to={`/jobs/${job.id}`}>
+                <img
+                  src={
+                    job.image ||
+                    "https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=800&q=80"
+                  }
+                  alt={job.title}
+                  className="h-40 w-full object-cover"
+                />
+              </Link>
               <div className="p-[10px]">
-                <h2 className="text-lg font-semibold mb-2 text-gray-800">
-                  {job.title}
-                </h2>
+                <Link to={`/jobs/${job.id}`}>
+                  <h2 className="text-lg font-semibold mb-2 text-gray-800">
+                    {job.title}
+                  </h2>
+                </Link>
                 <p className="text-sm text-gray-600 line-clamp-3">
                   {job.description}
                 </p>
                 <div className="mt-auto">
                   <Link
                     to={`/jobs/${job.id}`}
-                    className="inline-block  text-sm font-semibold text-center bg-black text-white p-[5px] rounded hover:bg-blue-300 transition"
+                    className="inline-block text-sm font-semibold text-center bg-black text-white p-[5px] rounded hover:bg-blue-300 transition"
                   >
                     Apply Now
                   </Link>
                 </div>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
       </div>
@@ -57,12 +60,9 @@ export const Jobsloader = () => {
   return axios
     .get("http://localhost:3001/jobs")
     .then((res) => {
-      console.info(res.data);
       return res.data;
     })
     .catch((err) => {
       console.error(err);
     });
 };
-
-const action = async () => {};

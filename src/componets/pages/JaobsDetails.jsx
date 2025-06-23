@@ -22,7 +22,6 @@ export const JobsDetaisloader = ({ params }) => {
   return axios
     .get(`http://localhost:3001/jobs`)
     .then((res) => {
-      console.info("Job Details", res.data.openings[params.id - 1]);
       const jobsDetails = res.data.openings[params.id - 1];
       return jobsDetails;
     })

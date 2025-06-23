@@ -453,5 +453,113 @@
       "role": "user"
     }
    
+  ],
+  "internships": [
+    {
+      "id": 1,
+      "title": "React Internship",
+      "description": "Internship program for React enthusiasts.",
+      "link": "/jobs/react-internship"
+    },
+    {
+      "id": 2,
+      "title": "Vue Internship",
+      "description": "Internship program for Vue enthusiasts.",
+      "link": "/jobs/vue-internship"
+    },
+    {
+      "id": 3,
+      "title": "Angular Internship",
+      "description": "Internship program for Angular enthusiasts.",
+      "link": "/jobs/angular-internship"
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "Redux Toolkit Todo App",
+      "description": "Project based on Redux Toolkit.",
+      "link": "/projects/redux-todo",
+      "image": "https://source.unsplash.com/featured/?tasks,checklist"
+    },
+    {
+      "id": 2,
+      "title": "Todo App",
+      "description": "Project based on React.",
+      "link": "/projects/todo",
+      "image": "https://source.unsplash.com/featured/?todo,notes"
+    },
+    {
+      "id": 3,
+      "title": "Add to Cart App",
+      "description": "Project using Context API for cart management.",
+      "link": "/projects/add-to-cart",
+      "image": "https://source.unsplash.com/featured/?shopping,cart"
+    },
+    {
+      "id": 4,
+      "title": "Dashboard App",
+      "description": "Responsive dashboard using React and Tailwind CSS.",
+      "link": "/projects/dashboard",
+      "image": "https://source.unsplash.com/featured/?dashboard,data"
+    },
+    {
+      "id": 5,
+      "title": "Weather App",
+      "description": "React app that fetches weather data using an external API.",
+      "link": "/projects/weather",
+      "image": "https://source.unsplash.com/featured/?weather,sky"
+    },
+    {
+      "id": 6,
+      "title": "Expense Tracker",
+      "description": "Track daily expenses with React and localStorage.",
+      "link": "/projects/expense-tracker",
+      "image": "https://source.unsplash.com/featured/?money,finance"
+    },
+    {
+      "id": 7,
+      "title": "Movie Search App",
+      "description": "Search for movies using the OMDb API in a React app.",
+      "link": "/projects/movie-search",
+      "image": "https://source.unsplash.com/featured/?cinema,movie"
+    },
+    {
+      "id": 8,
+      "title": "Notes App",
+      "description": "Create and manage notes with rich text support.",
+      "link": "/projects/notes",
+      "image": "https://source.unsplash.com/featured/?notebook,writing"
+    },
+    {
+      "id": 9,
+      "title": "Quiz App",
+      "description": "Multiple-choice quiz app with a timer and score tracking.",
+      "link": "/projects/quiz",
+      "image": "https://source.unsplash.com/featured/?quiz,question"
+    },
+    {
+      "id": 10,
+      "title": "Image Gallery",
+      "description": "Responsive image gallery with lazy loading.",
+      "link": "/projects/image-gallery",
+      "image": "https://source.unsplash.com/featured/?gallery,photos"
+    },
+    {
+      "id": 11,
+      "title": "Login & Signup Auth App",
+      "description": "Authentication app using Firebase and React Router.",
+      "link": "/projects/auth",
+      "image": "https://source.unsplash.com/featured/?login,security"
+    },
+    {
+      "id": 12,
+      "title": "Blog App",
+      "description": "Basic blog system with React, routing, and localStorage.",
+      "link": "/projects/blog",
+      "image": "https://source.unsplash.com/featured/?blog,writing"
+    }
+
   ]
 }
